@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumosTech - Iluminação Inteligente</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">LumosTech</h1>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Ilumine com inteligência</h2>
+        <p>Luminárias inteligentes que se adaptam a você.</p>
+        <a href="#produtos" class="btn">Conheça os produtos</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="sobre" class="section sobre">
+      <h2>Sobre a LumosTech</h2>
+      <p>A LumosTech cria luminárias inteligentes que transformam qualquer ambiente em um espaço inteligente, conectado e acolhedor.</p>
+    </section>
+
+    <section id="produtos" class="section produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1606813904615-713673c5909b" alt="Luminária Aurora">
+          <h3>Aurora</h3>
+          <p>Controle por voz e app, modos de luz ambiente e leitura.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1616627988123-22c053ba2298" alt="Luminária Zen">
+          <h3>Zen</h3>
+          <p>Design minimalista com sensor de presença e ajuste automático.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LumosTech. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
