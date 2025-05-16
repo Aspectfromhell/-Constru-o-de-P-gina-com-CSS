@@ -178,3 +178,32 @@ footer {
     padding: 20px;
   }
 }
+
+.hero {
+  height: 100vh;
+  background-color: #fff; /* Antes era imagem com parallax */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background: url('Images/novas-empresas-2013.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6); /* Translucidez para mostrar a imagem atrás */
+  padding: 40px;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-out;
+  z-index: 1;
+}
